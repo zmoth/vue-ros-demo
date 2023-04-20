@@ -5,12 +5,12 @@
   </div>
 
   <div>
-    <h1>Vue ROS Demo</h1>
+    <h1>Vue ROS2 Demo</h1>
     <p>Run the following commands in the terminal then refresh this page.</p>
     <ol class="center-list">
-      <li>roslaunch rosbridge_server rosbridge_websocket.launch</li>
-      <li>rostopic pub /listener std_msgs/String "Hello, World"</li>
-      <li>rosrun rospy_tutorials add_two_ints_server</li>
+      <li>ros2 launch rosbridge_server rosbridge_websocket_launch.xml</li>
+      <li>ros2 run demo_nodes_py add_two_ints_server</li>
+      <li>ros2 run demo_nodes_py talker</li>
     </ol>
   </div>
 

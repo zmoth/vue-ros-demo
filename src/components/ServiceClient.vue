@@ -41,7 +41,7 @@ export default {
       this.servieClient = new ROSLIB.Service({
         ros: this.ros,
         name: '/add_two_ints',
-        serviceType: 'rospy_tutorials/AddTwoInts'
+        serviceType: 'example_interfaces/srv/AddTwoInts'
       })
 
       // Then we create a Service Request. The object we pass in to ROSLIB.ServiceRequest matches the

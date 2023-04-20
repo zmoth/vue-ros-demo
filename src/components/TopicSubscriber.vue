@@ -18,7 +18,7 @@
 <script>
 import ROSLIB from 'roslib'
 
-const allowedMessageType = 'std_msgs/String'
+const allowedMessageType = 'std_msgs/msg/String'
 
 export default {
   name: 'TopicSubscriber',
